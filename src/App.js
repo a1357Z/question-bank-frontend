@@ -61,9 +61,6 @@ function App() {
             value={query}
             onChange={(e) => setQuery(e.target.value.toLowerCase())}
           />
-          {/* <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text> */}
         </Form.Group>
 
         <Form.Group className="mb-3">
@@ -74,9 +71,6 @@ function App() {
             value={topic}
             onChange={(e) => setTopic(e.target.value.toLowerCase())}
           />
-          {/* <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text> */}
         </Form.Group>
 
         <Form.Group className="mb-3">
